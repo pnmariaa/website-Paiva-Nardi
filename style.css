@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #a6a7bb;
+    background-color: #9faef1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,4 +63,20 @@ p {
 a {
     color: #dbd8ec;
     text-decoration: none;
+}
+
+.botao-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #1f5edb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.botao-link:hover {
+    background-color: #1f5edb;
 }
