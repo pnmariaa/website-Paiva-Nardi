@@ -24,9 +24,11 @@ form {
     border-radius: 12px;
     width: 320px;
     display: flex;
-    flex-direction: column;
-    gap: 12px;
+    flex-direction: row;
+    gap: 15px;
     margin: 40px auto;
+
+    max-width: 700px;
 }
 
 h1, h2 {
@@ -45,6 +47,8 @@ input {
     border-radius: 8px;
     background-color: #0f172a;
     color: #f1f5f9;
+
+width: 48%;
 }
 
 input:focus {
@@ -63,6 +67,7 @@ button {
     cursor: pointer;
     font-weight: bold;
     transition: background-color 0.2s ease;
+    width: 100%;
 
 }
 
