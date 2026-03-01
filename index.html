@@ -18,22 +18,21 @@
    <li>Dashboard da situação do aluno;</li>
    <li>Relatórios de notas.</li>
 </ol>
-   <h2>Login da sua conta</h2>
-   <form action= "Processa-login.php" method= "Post">
+   
+         <h1>Cadastro de Usuário</h1>
+    <form action="Processa-cadastro.php" method="POST">
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
 
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
 
-       <label for="usuario"> Digite seu nome de usuário ou email: </label><br>
-       <input type="text" id="usuario" name="usuario" required><br><br>
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha" required><br><br>
 
+        <button type="submit">Registrar</button><br>
 
-       <label for="senha"> Digite sua senha: </label><br>
-       <input type="password" id="senha" name="senha" required><br><br>
-
-
-       <button type="submit">Avançar</button><br>
-
-         <p>Não tem uma conta? <a href="cadastro.html" class="botao-link">Cadastre-se aqui!</a></p>
-    
+        <p>Já tem uma conta? <a href="index.html" class="botao-link">Faça seu login aqui!</a></p>
 
     
    </form>
