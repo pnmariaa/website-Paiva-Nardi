@@ -95,5 +95,16 @@ a:hover {
 
 .botao-link:hover {
     background-color: #2563eb;
+} 
+
+ol {
+    max-width: 500px;
+    margin: 30px auto;
 }
+
+h1 {
+    margin-top: 40px;
+}
+
+
 
