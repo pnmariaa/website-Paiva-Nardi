@@ -6,12 +6,11 @@
 
 body {
     font-family: 'Segoe UI' Arial, sans-serif;
-    background-image: 15,23,42,0.8), rgba(15,23,42,0.8)), url("img/fundo-site.jpg");
+    background-image: linear-gradient(rgba(15,23,42,0.8), rgba(15,23,42,0.8)), url("img/fundo-site.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
-    margin: 0;
 
 }
 
@@ -32,7 +31,6 @@ h1, h2 {
 }
 
 label {
-    
     font-size: 14px;
     color: #94a3b8;
 }
