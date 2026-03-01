@@ -95,10 +95,3 @@ a:hover {
     background-color: #2563eb;
 }
 
-.container {
-    display: flex;
-    padding: 20px;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-}
