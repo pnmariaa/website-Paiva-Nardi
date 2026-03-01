@@ -12,6 +12,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url('img/fundo-site.jpg'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+
 }
 
 form {
