@@ -7,13 +7,18 @@
    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
+
+   <div class="container">
+
+   <div class="info">
+
    <h1>Website Projeto Back-End e Front-End.</h1>
 
    <p>Um website desenvolvido para auxiliar a organização escolar dos alunos.</p>
 
    <h2>Principais Funcionalidades:</h2>
 
-<ol>
+<ul>
    <li>Cadastro/login pessoal; </li>
    <li>Cadastro de matérias;</li>
    <li>Cadastro de professores:</li>
@@ -21,28 +26,29 @@
    <li>Cálculo automático de média;</li>
    <li>Dashboard da situação do aluno;</li>
    <li>Relatórios de notas.</li>
-</ol>
+</ul>
+</div>   
    
-         <h2>Cadastro de Usuário</h2>
-         <form class="glass" action="Processa-cadastro.php" method="POST">
-            <div class="container-form">
 
-   <form action="Processa-cadastro.php" method="POST">
+<div class="form-area">
+         <h2>Cadastro de Usuário</h2>
+      <form class="glass" action="Processa-cadastro.php" method="POST"></form>   
+
       <label for="nome">Nome Completo:</label><br>
-      <input type="text" id="nome" name="nome" required><br><br>
+      <input type="text" id="nome" name="nome" required><br>
 
       <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email" required><br><br>
+      <input type="email" id="email" name="email" required><br>
 
       <label for="senha">Senha:</label><br>
-      <input type="password" id="senha" name="senha" required><br><br>
-
-      <button type="submit">Registrar</button><br>
+      <input type="password" id="senha" name="senha" required><br>
+      <button type="submit">Registrar</button>
 
       <p>Já tem uma conta? <a href="login.html" class="botao-link">Faça seu login aqui!</a></p>
 
    
    </form>
+   </div>
    </div>
 </body>
 </html>  
